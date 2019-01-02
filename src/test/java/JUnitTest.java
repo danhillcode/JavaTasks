@@ -16,7 +16,7 @@ class JUnitTest {
     @Test
     void NumeralInitialTest2() {
         RomanNumerals rome = new RomanNumerals();
-        System.out.println(rome.romanNumeralsCalc(3999));
+        System.out.println(rome.generate(3999));
     }
 
 
